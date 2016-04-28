@@ -81,3 +81,4 @@ C:\Users\ericame\Documents\GitHub\SharePoint-Def-Public-Site-Navigation\Structur
 C:\Users\ericame\Documents\GitHub\SharePoint-Def-Public-Site-Navigation\StructurePublishWebSite\obj\x64\Debug\StructurePublishWebSite.csproj.StructurePublishWebSite.exe.config
 C:\Users\ericame\Documents\GitHub\SharePoint-Def-Public-Site-Navigation\StructurePublishWebSite\obj\x64\Debug\StructurePublishWebSite.exe
 C:\Users\ericame\Documents\GitHub\SharePoint-Def-Public-Site-Navigation\StructurePublishWebSite\obj\x64\Debug\StructurePublishWebSite.pdb
+C:\Users\ericame\Documents\GitHub\SharePoint-Def-Public-Site-Navigation\StructurePublishWebSite\obj\x64\Debug\StructurePublishWebSite.csprojResolveAssemblyReference.cache

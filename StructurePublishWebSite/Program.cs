@@ -45,19 +45,19 @@ namespace StructurePublishWebSite
             t.SetLocalCustomProperty("_Sys_Nav_TargetUrl", "/Pages/default.aspx");
 
             t = termSet.CreateTerm("Intranet", 1033);
-            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://pruebassp2/sites/publicacion/Pages/Home.aspx");
+            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://devsharepoint/sites/publicacion/Pages/Home.aspx");
 
             t = termSet.CreateTerm("HR", 1033);
-            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://pruebassp2/sites/publicacion/hr");
+            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://devsharepoint/sites/publicacion/hr");
 
             t = termSet.CreateTerm("IT", 1033);
-            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://pruebassp2/sites/publicacion/it");
+            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://devsharepoint/sites/publicacion/it");
 
             t = termSet.CreateTerm("Legal", 1033);
-            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://pruebassp2/sites/publicacion/legal");
+            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://devsharepoint/sites/publicacion/legal");
 
             t = termSet.CreateTerm("Finance", 1033);
-            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://pruebassp2/sites/publicacion/finance");
+            t.SetLocalCustomProperty("_Sys_Nav_SimpleLinkUrl", "http://devsharepoint/sites/publicacion/finance");
 
             try
             {
@@ -102,7 +102,7 @@ namespace StructurePublishWebSite
             SPSecurity.RunWithElevatedPrivileges(
                 () =>
                 {
-                    using (SPSite site = new SPSite("http://pruebassp2/sites/publicacion"))
+                    using (SPSite site = new SPSite("http://devsharepoint/sites/publicacion"))
                     {
                         TaxonomySession session = new TaxonomySession(site);
                         TermStore termStore = session.TermStores["Managed Metadata Service"];
@@ -121,7 +121,7 @@ namespace StructurePublishWebSite
 
 
 
-                    using (SPSite site = new SPSite("http://pruebassp2/sites/publicacion"))
+                    using (SPSite site = new SPSite("http://devsharepoint/sites/publicacion"))
 
                     {
 
